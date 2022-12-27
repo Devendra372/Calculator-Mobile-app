@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/out"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="textEnd"
+            android:textColor="#FFFFFF"
+            android:gravity="bottom|left"
+            android:padding="10dp"
+            android:textSize="48sp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <Button
+        android:id="@+id/bac"
+        android:layout_width="104dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:onClick="input"
+        android:text="AC"
+        android:textColor="@color/red"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bdel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@color/red"
+        android:onClick="input"
+        android:background="@color/orange"
+
+        android:text="DEL"
+        android:textSize="25sp"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/bnou"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@color/orange"-->
+<!--        android:text="NO"-->
+<!--        android:textSize="30sp"-->
+<!--        />-->
+
+    <Button
+        android:id="@+id/bdiv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:onClick="input"
+        android:text="/"
+        android:textSize="30sp"
+        />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="input"
+            android:text="7"
+            android:textSize="48sp"
+             />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+
+            android:onClick="input"
+            android:text="8"
+            android:textSize="48sp"
+             />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+
+            android:onClick="input"
+            android:text="9"
+            android:textSize="48sp"
+             />
+
+        <Button
+            android:id="@+id/bmul"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@color/orange"
+            android:onClick="input"
+            android:text="X"
+            android:textSize="48sp"
+             />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+
+            android:onClick="input"
+            android:text="4"
+            android:textSize="48sp"
+             />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="0dp"
+            android:background="@null"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="input"
+            android:text="5"
+            android:textSize="48sp"
+             />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="0dp"
+            android:background="@null"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="input"
+            android:text="6"
+            android:textSize="48sp"
+             />
+
+        <Button
+            android:id="@+id/bminus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="input"
+            android:background="@color/orange"
+            android:text="-"
+            android:textSize="50sp"
+             />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="input"
+            android:background="@null"
+
+            android:text="1"
+            android:textSize="48sp"
+            />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+
+            android:onClick="input"
+            android:text="2"
+            android:textSize="48sp"
+             />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="input"
+            android:background="@null"
+
+            android:text="3"
+            android:textSize="48sp"
+             />
+
+        <Button
+            android:id="@+id/bplus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:onClick="input"
+            android:text="+"
+            android:textSize="48sp"
+             />
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bdot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+
+            android:onClick="input"
+            android:text="."
+            android:textSize="48sp"
+            />
+
+        <Button
+            android:id="@+id/b0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="input"
+            android:background="@null"
+
+            android:text="0"
+            android:textSize="48sp"
+             />
+
+
+
+
+        <Button
+            android:id="@+id/beq"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:onClick="input"
+            android:text="="
+            android:textColor="@color/green"
+            android:textSize="48sp" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
