@@ -4,8 +4,8 @@
  
 ## Screenshots
 
-![App Screenshot](\screenshots\screenshot1.jpg)
+![App Screenshot](https://raw.github.com/Devendra372/Calculator-Mobile-app/main/screenshots/screenshot1)
 
-![App Screenshot](\screenshots\screenshot2.jpg)
+![App Screenshot](https://raw.github.com/Devendra372/Calculator-Mobile-app/main/screenshots/screenshot2)
 
 
